@@ -3,7 +3,7 @@
    ###__오픈소스는 open CV,YOLO을 이용할 예정입니다.__ 이러한 오픈소스들을 실제 어떻게 구현하는지를 간단하게 알아본 후 적용시킬 계획입니다.
    ### 프로젝트를 4가지의 시스템으로 분리하여서 개발에 용이하도록 만들었습니다. 
 2.*** 
-3.#[명호의 github링크](https://github.com/putateast/open-source-lab) ---
-4.#<img src = "https://search.pstatic.net/sunny/?src=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F98528335%3Fv%3D4%3Fs%3D400&type=sc960_832" width = "50%" height = "50%" >
-5.#-[o]운동하기
-  #-[x]공부하기
+3.####[명호의 github링크](https://github.com/putateast/open-source-lab) ---
+4.####<img src = "https://search.pstatic.net/sunny/?src=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F98528335%3Fv%3D4%3Fs%3D400&type=sc960_832" width = "50%" height = "50%" >
+5.####-[o]운동하기
+  ####-[x]공부하기
