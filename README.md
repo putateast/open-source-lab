@@ -5,5 +5,4 @@
 *** 
 3.[명호의 github링크](https://github.com/putateast/open-source-lab) ---
 4.<img src = "https://th.bing.com/th/id/OIP.UhX4I0tGos7HNj8hd9UTRAHaDW?rs=1&pid=ImgDetMain" width = "50%" height = "50%" >
-5.-[o]운동하기
-  -[x]공부하기
+5.|-[o]운동하기:|-[x]공부하기:|
