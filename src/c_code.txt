@@ -1,0 +1,170 @@
+#include <stdio.h>
+int main(void){
+	int number;
+	printf("정수를 입력하시오:");
+	scanf("%d",&number);
+	if(number >0)
+	{printf("양수입니다.\n");}
+	printf("입력된 값은 %d입니다.",number);
+
+
+	return 0;
+}
+
+#include <stdio.h>
+
+int main(void){
+	int number;
+	printf("정수를 입력하시오 :");
+	scanf("%d",&number);
+
+	if(number <0)
+	{number =-number;}
+	printf("절대값은 %d 입니다 \n",number);
+
+	return 0;
+}
+
+#include <stdio.h>
+int main(void){
+	int x;
+	printf("x를 입력하세요:");
+	scanf("%d",&x);
+	if (x){
+		printf("x가 0이 아닙니다 \n");
+	}
+	if (!x){
+		printf("x가 0이 입니다\n");
+	}
+	return 0;
+}
+if뒤에 ; 쓰면 안된다. ==와 =다르다. c언어에서 거짓은 0, 참은 0이외에 숫자
+복합문을 사용하려면 중괄호로 묶어 주어야한다.
+
+#include <stdio.h>
+int main(void){
+	 int number;
+	 printf("숫자를 입력하새요 :");
+	 scanf("%d",&number);
+	 (number %2) ? printf("홀수 입니다.\n"):printf("짝수 입니다.\n");//삼항 연산자는 if가 필요없다, 처음이 참일떄 즉 1 일떄 나중이 0 거짓일때,(조건) ? 참일 때 실행할 코드 : 거짓일 때 실행할 코드;
+
+	 return 0;
+
+}
+
+#include <stdio.h>
+int main(void){
+	int n1,n2,n3;
+	printf("정수를 입력하시오 :");
+	scanf("%d",&n1);
+	printf("정수를 입력하시오 :");
+	scanf("%d",&n2);
+
+	(n2==0)?printf("0으로 나눌 수 없습닏자.\n"):n3=n1/n2; printf("결과를 %d 입니다.\n",n3);
+
+
+	return 0;
+}
+
+#include <stdio.h>
+int main(void){
+	int year;
+	printf("연도를 입려하시오 :");
+	scanf("%d",&year);
+	if((year%4==0 &&year %100!=0)||year%400==0)
+		printf("%d년은 윤년입니다.\n",year);
+	else
+		printf("%d년은 윤년이 아닙니다\n",year);
+	return 0;
+}
+
+#include <stdio.h>
+int main(void){
+	int real;
+	int counter;
+	printf("실기 점수를 입력하세요 :");
+	scanf("%d",&real);
+	printf("면접  점수를 입력하세요 :");
+	scanf("%d",&counter);
+	if (real>80 && counter >=80)
+		printf("합격입니다.");
+	else
+		printf("불합격입니다.");
+	return 0;
+	}
+
+
+#include <stdio.h>
+int main(void){
+	int month,day;
+	printf("달을 입력하세요 :");
+	scanf("%d",&month);
+	if(month==2){
+		printf("27일또는 윤년에는 28일  입니다.");
+
+	}
+	else if(month<=7 && month%2==0){
+		printf("30일 입니다.");
+
+	}
+	else if(month>7&&month%2==1){
+		printf("30일 입니다.");
+	}
+	else if(month>7&& month%2==0){
+		printf("31일 입니다.");
+	}
+	else if(month<=7&&month%2==1){
+		printf("31일 입니다.");
+	}
+	return 0;
+} //if else 구문을 이용함
+
+#include <stdio.h>
+int main(void){
+	int month,days;
+	printf("달을 입력하세요 :");
+	scanf("%d",&month);
+	switch(month){
+		case 2:
+			days=28;
+			break;
+		case 4:
+		case 6:
+		case 9:
+		case 11:
+				days=30;
+				break;
+		default:
+			days=31;
+			break;
+	}
+	printf("%d월의 일수는 %d 입니다.",month,days);
+	return 0;
+}
+#include <stdio.h>
+int main(void){
+
+	int a,b,c;
+	printf("삼각형으 3변의 기리이를 입력하시오 :");
+	scanf("%d%d%d",&a,&b,&c);
+
+	if ((a+b)>c&&(b+c)>a&&(c+a)>b){
+		printf("올바른 삼각형 \n");
+	}
+	else{
+		printf("올바르지 않은 삼각형 \n");
+	}
+	if(a==b==c){
+		printf("정삼각형 입니다.");
+	}
+	else if(a==b || b==c||a==c){
+		printf("이등변 삼각형 입니다.");
+	}
+	else if(a*a==b*b+c*c||b*b==c*c+a*a||c*c==b*b+a*a){
+		printf("직각 삼각형 입니다."); }
+	else {
+		printf("일반 삼각형 입니다.");
+
+	}
+	 	return 0;
+	}
