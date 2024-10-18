@@ -6,7 +6,7 @@
 3.[명호의 github링크](https://github.com/putateast/open-source-lab) ---
 4.<img src = "https://th.bing.com/th/id/OIP.UhX4I0tGos7HNj8hd9UTRAHaDW?rs=1&pid=ImgDetMain" width = "50%" height = "50%" >
 
-## 현재 프로젝트 상황
+## [10/18]현재 프로젝트 상황
 
 | 제안서작성| 프로그램 작성| 교수님과 팀 면담  |
 |---------|---------|---------|
