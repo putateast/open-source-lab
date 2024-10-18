@@ -4,6 +4,6 @@
 ## 프로젝트를 4가지의 시스템으로 분리하여서 개발에 용이하도록 만들었습니다. 
 *** 
 3.[명호의 github링크](https://github.com/putateast/open-source-lab) ---
-4.<img src = "https://search.pstatic.net/sunny/?src=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F98528335%3Fv%3D4%3Fs%3D400&type=sc960_832" width = "50%" height = "50%" >
+4.<img src = "https://th.bing.com/th/id/OIP.UhX4I0tGos7HNj8hd9UTRAHaDW?rs=1&pid=ImgDetMain" width = "50%" height = "50%" >
 5.-[o]운동하기
   -[x]공부하기
