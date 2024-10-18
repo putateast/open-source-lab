@@ -5,8 +5,8 @@
 *** 
 3.[명호의 github링크](https://github.com/putateast/open-source-lab) ---
 4.<img src = "https://th.bing.com/th/id/OIP.UhX4I0tGos7HNj8hd9UTRAHaDW?rs=1&pid=ImgDetMain" width = "50%" height = "50%" >
-| 운동    | 공부    | 밥먹기  |
+| 제안서작성| 프로그램 작성| 교수님과 팀 면담  |
 |---------|---------|---------|
-| [o/x]   | [o/x]   | [o/x]   |
+| [o]   | [x]   | [x]   |
 
   
