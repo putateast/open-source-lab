@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# 현재 디렉토리의 파일 목록을 출력
+
+list_files() {
+    echo "현재 디렉토리의 파일 목록:"
+    ls -la
+}
+
+#디스크 사용량 확인
+check_disk_usage() {
+    echo "디스크 사용량:"
+    df -h
+}
+#메모리 상태 확인
+check_memory_usage() {
+    echo "메모리 사용량:"
+    free -h
+}
