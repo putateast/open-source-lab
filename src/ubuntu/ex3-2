@@ -1,0 +1,15 @@
+#!/bin/bash
+read num1 operator num2
+case $operator in
+        +)
+                result=$((num1+ num2))
+                ;;
+        -)
+                result=$((num1- num2))
+                ;;
+        *)
+                echo "nono "
+                exit 1
+                ;;
+esac
+echo $result
