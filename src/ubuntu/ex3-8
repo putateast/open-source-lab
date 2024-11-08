@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read -p "이름과 전화번호를 입력하세요 (예: John 123-456-7890): " name phone
+
+echo "$name $phone" >> DB.txt
+
+echo "팀원의 정보가 DB.txt에 추가되었습니다."
