@@ -1,0 +1,20 @@
+
+if [ ! -d "$folder_name" ]; then
+    echo "$folder_name 폴더가 존재하지 않습니다. 폴더를 생성합니다."
+    mkdir "$folder_name"
+else
+    echo "$folder_name 폴더가 이미 존재합니다. 폴더의 전체 파일 목록은 다음과 같
+습니다:"
+    ls -la "$folder_name"
+fi
+
+echo "$folder_name 폴더에 파일을 생성합니다."
+for i in {1..5}; do
+    echo "내용 $i" > "$folder_name/file$i.txt"
+    echo "$folder_name/file$i.txt 파일을 생성했습니다."
+done
+
+echo "$folder_name 폴더에 생성된 파일 목록:"
+ls -l "$folder_name"
+
+tar -cf "$folder_name/files.tar" -C "$folder_name" .
