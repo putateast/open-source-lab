@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "몸무게(kg)와 키(cm)를 입력하세요 (예: 70 175):"
+read weight height
+
+height_m=$(echo "$height / 100" | bc -l)
+
+bmi=$(echo "$weight / ($height_m * $height_m)" | bc -l)
+
+if [ $(echo "$bmi > 23" | bc -l) -eq 1 ]; then
+    echo "과체중입니다. BMI 지수: $bmi"
+elif [ $(echo "$bmi >= 18.5 && $bmi <= 23" | bc -l) -eq 1 ]; then
+    echo "정상입니다. BMI 지수: $bmi"
+else
+    echo "저체중입니다. BMI 지수: $bmi"
+fi
