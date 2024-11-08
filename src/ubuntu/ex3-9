@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "검색할 팀원의 이름을 입력하세요: " search_name
+
+if grep -q "^$search_name " DB.txt; then
+    grep "^$search_name " DB.txt
+else
+    
+    echo "해당 이름을 가진 팀원이 없습니다."
+fi
